@@ -1,0 +1,22 @@
+Stories: March Madness App
+
+1.  it should display all the teams in the standard 68 team bracket format. (34 teams
+on each side)
+2. it should allow for the users to guess who will advance by clicking on the team name.
+3.  It should give each bracket a starting point value.
+4.  Each wrong guess should subtract from that starting value.
+5. Each wrong guess should display as crossed out
+6.  Should create a list of brackets
+7.  It should organize the list of brackets by highest point value
+8.  Should have ability to create a new bracket with a new name.
+9.  It should go to the individual users bracket on click of bracket list.
+10. It should have a master bracket that contains the correct answers to compare to
+
+
+Functionality:
+bare bones-
+1. create new bracket with name of bracket 
+2. Displays all the brackets that have been made
+3. Click on a bracket name to show that persons bracket
+4. Clicking on a team name in the bracket advances that team to the next level
+5. Checks master bracket to find winners and losers and displays potential points left
