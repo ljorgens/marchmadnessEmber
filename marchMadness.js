@@ -1,0 +1,1 @@
+MarchMadness = Ember.Application.create();
