@@ -1,7 +1,10 @@
 <h1>Brackets</h1>
+<p>
+  Click your bracket to make your picks!
+</p>
 <ul>
-{{#each}}
-  <li>{{bracketName}}</li>
+{{#each bracket in model}}
+  <li>{{#link-to 'bracket' bracket}}{{bracket.bracketName}}{{/link-to}}</li>
 {{/each}}
 </ul>
 
