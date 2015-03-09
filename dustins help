@@ -1,0 +1,51 @@
+{
+  west: {
+
+  }
+  east:
+  south:
+  midwest:
+}
+
+var KansasCity = []
+var KSvWKU = ['KS', 'WKU']
+
+pushGuess: function(matchup, guessIndex, nextMatchup) {
+  nextMatchup.push(matchup[guessIndex]);
+}
+
+pushGuess(KSvWKU, 0, KansasCity);
+
+Matchup = {
+  teams: [],
+  nextMatchup:
+}
+
+matchup
+
+{
+  0: {
+    0: {
+      team1: "KS",
+      team2: "WKU"
+    },
+    1: {
+
+    },
+    2: {
+
+    },
+    3: {
+
+    }
+  },
+  1: {
+
+  },
+  2: {
+
+  },
+  3: {
+
+  }
+}
