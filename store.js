@@ -1,2 +1,2 @@
-marchMadness.ApplicationSerializer = DS.LSSerializer.extend();
-marchMadness.ApplicationAdapter = DS.LSAdapter.extend();
+MarchMadness.ApplicationSerializer = DS.LSSerializer.extend();
+MarchMadness.ApplicationAdapter = DS.LSAdapter.extend();
