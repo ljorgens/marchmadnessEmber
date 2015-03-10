@@ -1,6 +1,8 @@
-<h1>{{model.bracketName}}</h1>
+<h1>{{model.bracketName}}</h1> <a href="/#/brackets">Back to all brackets</a>
+<br>
+{{#link-to 'region1'}}Region 1{{/link-to}} ||
+{{#link-to 'region2'}}Region 2{{/link-to}} ||
+{{#link-to 'region3'}}Region 3{{/link-to}} ||
+{{#link-to 'region4'}}Region 4{{/link-to}}
 
-
-
-
-<a href="/#/brackets">Back to all brackets</a>
+{{outlet}}
