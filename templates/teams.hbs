@@ -1,0 +1,9 @@
+<h3>Region 1</h3>
+  <ul>
+  {{#each team in model}}
+    <li>{{team.teamName}}</li>
+    <li>{{team.id}}</li>
+  {{/each}}
+</ul>
+
+{{model.firstObject.teamName}}
