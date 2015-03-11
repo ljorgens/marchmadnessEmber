@@ -1,5 +1,20 @@
 // MarchMadness.ApplicationRoute = Ember.Route.extend({
 //    beforeModel: function() {
+//           this.store.push('round', {
+//             id: 1,
+//             roundNumber: 1,
+//             roundName: "Round of 64"
+//           });
+//           this.store.push('round', {
+//             id: 2,
+//             roundNumber: 2,
+//             roundName: "Round of 32"
+//           });
+//           this.store.push('round', {
+//             id: 3,
+//             roundNumber: 3,
+//             roundName: "Sweet 16"
+//           });
 //        this.store.push('team', {
 //         id: 1,
 //         school: "Terrapins",
