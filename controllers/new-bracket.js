@@ -48,7 +48,7 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
           roundNumber: 2,
           roundName: "Round of 32",
           teams: []
-        }, 
+        },
         {
           id: 3,
           roundNumber: 3,
