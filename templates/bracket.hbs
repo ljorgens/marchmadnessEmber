@@ -1,11 +1,13 @@
 <h1>{{model.bracketName}}</h1> <a href="/#/brackets">Back to all brackets</a>
 <br>
 
-
 <div class="row">
   {{#each round in model.rounds}}
     <div class="col-sm-2">
       {{round.roundName}}
+      {{#each team in round.teams}}
+        {{team.seed}}{{team.school}}<br>
+      {{/each}}
     </div>
   {{/each}}
 </div>
