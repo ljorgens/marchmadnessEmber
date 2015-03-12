@@ -1,8 +1,7 @@
 MarchMadness.BracketController = Ember.ObjectController.extend({
   actions:{
-    advance:function(){
-      var selectedSchool = this.model._data.rounds[0].teams[0];
-      this.model._data.rounds[1].teams.addObject(selectedSchool);
+    advance:function(round, team){
+      this.model._data.rounds[round.roundNumber].teams.addObject(team);
       this.model.save();
     }
   }

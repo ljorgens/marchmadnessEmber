@@ -10,82 +10,98 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
           teams: [{ id: 1,
                     school: "Terrapins",
                     region: "East",
-                    seed: 1
+                    seed: 1,
+                    round: 1
                   }, {
                     id: 2,
                     school: "Blue Devils",
                     region: "East",
-                    seed: 16
+                    seed: 16,
+                    round: 1
                   }, {
                     id: 3,
                     school: "Bears",
                     region: "East",
-                    seed: 8
+                    seed: 8,
+                    round: 1
                   }, {
                     id: 4,
                     school: "Greens",
                     region: "East",
-                    seed: 9
+                    seed: 9,
+                    round: 1
                   }, {
                     id: 5,
                     school: "Clever turtles",
                     region: "East",
-                    seed: 5
+                    seed: 5,
+                    round: 1
                   }, {
                     id: 6,
                     school: "Devils",
                     region: "East",
-                    seed: 12
+                    seed: 12,
+                    round: 1
                   }, {
                     id: 7,
                     school: "throw pillows",
                     region: "East",
-                    seed: 4
+                    seed: 4,
+                    round: 1
                   }, {
                     id: 8,
                     school: "throw pillows",
                     region: "East",
-                    seed: 13
+                    seed: 13,
+                    round: 1
                   }, {
                     id: 9,
                     school: "throw pillows",
                     region: "East",
-                    seed: 6
+                    seed: 6,
+                    round: 1
                   }, {
                     id: 10,
                     school: "throw pillows",
                     region: "East",
-                    seed: 11
+                    seed: 11,
+                    round: 1
                   }, {
                     id: 11,
                     school: "throw pillows",
                     region: "East",
-                    seed: 3
+                    seed: 3,
+                    round: 1
                   }, {
                     id: 12,
                     school: "throw pillows",
                     region: "East",
-                    seed: 14
+                    seed: 14,
+                    round: 1
                   }, {
                     id: 13,
                     school: "throw pillows",
                     region: "East",
-                    seed: 7
+                    seed: 7,
+                    round: 1
                   }, {
                     id: 14,
                     school: "throw pillows",
                     region: "East",
-                    seed: 10
+                    seed: 10,
+                    round: 1
                   }, {
                     id: 15,
                     school: "throw pillows",
                     region: "East",
-                    seed: 2
+                    seed: 2,
+                    round: 1
                   }, {
                     id: 16,
                     school: "throw pillows",
                     region: "East",
-                    seed: 15
+                    seed: 15,
+                    round: 1
                 }]
         },
         {

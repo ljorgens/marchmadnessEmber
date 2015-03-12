@@ -6,7 +6,7 @@
     <div class="col-sm-2">
       {{round.roundName}}
       {{#each team in round.teams}}
-        <br><p {{action 'advance'}}>{{team.seed}} {{team.school}}</p>
+        <br><p {{action 'advance' round team}}>{{team.seed}} {{team.school}}</p>
       {{/each}}
     </div>
   {{/each}}
