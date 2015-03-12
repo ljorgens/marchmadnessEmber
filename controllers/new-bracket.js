@@ -7,120 +7,127 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
           id: 1,
           roundNumber: 1,
           roundName: "Round of 64",
-          teams: [{ id: 1,
-                    school: "Terrapins",
-                    region: "East",
-                    seed: 1,
-                    round: 1
-                  }, {
+          games: [{ id: 1,
+                    nextGameId: 9,
+                    teams: [{ id: 1,
+                      school: "Terrapins",
+                      region: "East",
+                      seed: 1},
+                      {
+                      id: 2,
+                      school: "Blue Devils",
+                      region: "East",
+                      seed: 16}] },
+                      {
                     id: 2,
-                    school: "Blue Devils",
-                    region: "East",
-                    seed: 16,
-                    round: 1
-                  }, {
+                    nextGameId: 9,
+                    teams: [{ id: 3,
+                      school: "Bears",
+                      region: "East",
+                      seed: 8},
+                      {
+                      id: 4,
+                      school: "Greens",
+                      region: "East",
+                      seed: 9}] },
+                      {
                     id: 3,
-                    school: "Bears",
-                    region: "East",
-                    seed: 8,
-                    round: 1
-                  }, {
+                    nextGameId: 10,
+                    teams: [{ id: 5,
+                      school: "Clever Turtles",
+                      region: "East",
+                      seed: 5},
+                      {
+                      id: 6,
+                      school: "Devils",
+                      region: "East",
+                      seed: 12}] },
+                      {
                     id: 4,
-                    school: "Greens",
-                    region: "East",
-                    seed: 9,
-                    round: 1
-                  }, {
+                    nextGameId: 10,
+                    teams: [{ id: 7,
+                      school: "Clever Turtles",
+                      region: "East",
+                      seed: 4},
+                      {
+                      id: 8,
+                      school: "Devils",
+                      region: "East",
+                      seed: 13}] },
+                      {
                     id: 5,
-                    school: "Clever turtles",
-                    region: "East",
-                    seed: 5,
-                    round: 1
-                  }, {
+                    nextGameId: 11,
+                    teams: [{ id: 9,
+                      school: "Clever Turtles",
+                      region: "East",
+                      seed: 6},
+                      {
+                      id: 10,
+                      school: "Devils",
+                      region: "East",
+                      seed: 11}] },
+                      {
                     id: 6,
-                    school: "Devils",
-                    region: "East",
-                    seed: 12,
-                    round: 1
-                  }, {
+                    nextGameId: 11,
+                    teams: [{ id: 11,
+                      school: "Clever Turtles",
+                      region: "East",
+                      seed: 3},
+                      {
+                      id: 12,
+                      school: "Devils",
+                      region: "East",
+                      seed: 14}] },
+                      {
                     id: 7,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 4,
-                    round: 1
-                  }, {
+                    nextGameId: 12,
+                    teams: [{ id: 13,
+                      school: "Clever Turtles",
+                      region: "East",
+                      seed: 7},
+                      {
+                      id: 14,
+                      school: "Devils",
+                      region: "East",
+                      seed: 10}] },
+                      {
                     id: 8,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 13,
-                    round: 1
-                  }, {
-                    id: 9,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 6,
-                    round: 1
-                  }, {
-                    id: 10,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 11,
-                    round: 1
-                  }, {
-                    id: 11,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 3,
-                    round: 1
-                  }, {
-                    id: 12,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 14,
-                    round: 1
-                  }, {
-                    id: 13,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 7,
-                    round: 1
-                  }, {
-                    id: 14,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 10,
-                    round: 1
-                  }, {
-                    id: 15,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 2,
-                    round: 1
-                  }, {
-                    id: 16,
-                    school: "throw pillows",
-                    region: "East",
-                    seed: 15,
-                    round: 1
-                }]
-        },
-        {
+                    nextGameId: 12,
+                    teams: [{ id: 15,
+                      school: "Clever Turtles",
+                      region: "East",
+                      seed: 2},
+                      {
+                      id: 16,
+                      school: "Devils",
+                      region: "East",
+                      seed: 15}] }
+                    ]},
+          {
           id: 2,
           roundNumber: 2,
           roundName: "Round of 32",
-          teams: []
+          games: [{
+            id: 9, nextGameId: 13, teams: []},
+          {id: 10, nextGameId: 13, teams: []},
+                {id: 11, nextGameId: 14, teams: []},
+                {id: 12, nextGameId: 14, teams: []}
+          ],
         },
         {
           id: 3,
           roundNumber: 3,
           roundName: "Sweet 16",
-          teams: []
+          games: [{id: 13, nextGameId: 15, teams: []},
+                  {id: 14, teams: []}
+                  ],
         },
         {
           id: 4,
           roundNumber: 4,
           roundName: "Elite 8",
-          teams: []
+          games: [{id: 15, nextGameId: null, teams: []}
+          ],
         }]
       });
       NewBracket.save();

@@ -5,8 +5,10 @@
   {{#each round in model.rounds}}
     <div class="col-sm-2">
       {{round.roundName}}
-      {{#each team in round.teams}}
-        <br><p {{action 'advance' round team}}>{{team.seed}} {{team.school}}</p>
+      {{#each game in round.games}}
+      {{#each team in game.teams}}
+        <br><p {{action 'advance' round team game}}>{{team.seed}} {{team.school}}</p>
+      {{/each}}
       {{/each}}
     </div>
   {{/each}}
