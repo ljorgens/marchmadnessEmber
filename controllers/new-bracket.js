@@ -19,7 +19,7 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Blue Devils",
                       region: "East",
                       seed: 16,
-                      previousGameId: 1}] },
+                      previousGameId: 2}] },
                       {
                     id: 2,
                     nextGameId: 9,
@@ -27,13 +27,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Bears",
                       region: "East",
                       seed: 8,
-                      previousGameId: 2},
+                      previousGameId: 3},
                       {
                       id: 4,
                       school: "Greens",
                       region: "East",
                       seed: 9,
-                      previousGameId: 2}] },
+                      previousGameId: 4}] },
                       {
                     id: 3,
                     nextGameId: 10,
@@ -41,13 +41,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Clever Turtles",
                       region: "East",
                       seed: 5,
-                      previousGameId: 3},
+                      previousGameId: 5},
                       {
                       id: 6,
                       school: "Devils",
                       region: "East",
                       seed: 12,
-                      previousGameId: 3}] },
+                      previousGameId: 6}] },
                       {
                     id: 4,
                     nextGameId: 10,
@@ -55,13 +55,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Clever Turtles",
                       region: "East",
                       seed: 4,
-                      previousGameId: 4},
+                      previousGameId: 7},
                       {
                       id: 8,
                       school: "Devils",
                       region: "East",
                       seed: 13,
-                      previousGameId: 4}] },
+                      previousGameId: 8}] },
                       {
                     id: 5,
                     nextGameId: 11,
@@ -69,13 +69,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Clever Turtles",
                       region: "East",
                       seed: 6,
-                      previousGameId: 5},
+                      previousGameId: 9},
                       {
                       id: 10,
                       school: "Devils",
                       region: "East",
                       seed: 11,
-                      previousGameId: 5}] },
+                      previousGameId: 10}] },
                       {
                     id: 6,
                     nextGameId: 11,
@@ -83,13 +83,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Clever Turtles",
                       region: "East",
                       seed: 3,
-                      previousGameId: 6},
+                      previousGameId: 11},
                       {
                       id: 12,
                       school: "Devils",
                       region: "East",
                       seed: 14,
-                      previousGameId: 6}] },
+                      previousGameId: 12}] },
                       {
                     id: 7,
                     nextGameId: 12,
@@ -97,13 +97,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Clever Turtles",
                       region: "East",
                       seed: 7,
-                      previousGameId: 7},
+                      previousGameId: 13},
                       {
                       id: 14,
                       school: "Devils",
                       region: "East",
                       seed: 10,
-                      previousGameId: 7}] },
+                      previousGameId: 14}] },
                       {
                     id: 8,
                     nextGameId: 12,
@@ -111,13 +111,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Clever Turtles",
                       region: "East",
                       seed: 2,
-                      previousGameId: 8},
+                      previousGameId: 15},
                       {
                       id: 16,
                       school: "Devils",
                       region: "East",
                       seed: 15,
-                      previousGameId: 8}] }
+                      previousGameId: 16}] }
                     ]},
           {
           id: 2,
@@ -135,7 +135,7 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
           roundNumber: 3,
           roundName: "Sweet 16",
           games: [{id: 13, nextGameId: 15, teams: []},
-                  {id: 14, teams: []}
+                  {id: 14, nextGameId: 15, teams: []}
                   ],
         },
         {
