@@ -3,12 +3,14 @@
 
 <div class="row">
   {{#each round in model.rounds}}
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       {{round.roundName}}
       {{#each game in round.games}}
+      <div class="well">
       {{#each team in game.teams}}
         <br><p {{action 'advance' round team game}}>{{team.seed}} {{team.school}}</p>
       {{/each}}
+    </div>
       {{/each}}
     </div>
   {{/each}}
