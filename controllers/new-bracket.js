@@ -13,13 +13,13 @@ MarchMadness.NewBracketController = Ember.Controller.extend({
                       school: "Terrapins",
                       region: "East",
                       seed: 1,
-                      previousGameId: 1},
+                      previousGameId: 10},
                       {
                       id: 2,
                       school: "Blue Devils",
                       region: "East",
                       seed: 16,
-                      previousGameId: 2}] },
+                      previousGameId: 20}] },
                       {
                     id: 2,
                     nextGameId: 9,
